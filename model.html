@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>model</title>
+</head>
+<body>
+
+<h1>Model</h1>
+A machine learning model<br>
+<br>
+<a href="https://schema.org/Thing">Thing</a><br>
+<table>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Technique</td>
+    <td>String</td>
+    <td>Which Technique is used to train the model</td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://schema.org/Dataset">Dataset</a></td>
+    <td>The Dataset on which the model was trained</td>
+  </tr>
+    <tr class="supertype"><th class="supertype-name" colspan="3">Properties from
+
+
+    <a href="/Thing" class="core" title="Thing">Thing</a></th></tr>
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/additionalType" class="core" title="additionalType">additionalType</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a>&nbsp; or <br>
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
+    use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/alternateName" class="core" title="alternateName">alternateName</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a></td>
+            <td class="prop-desc">An alias for the item.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/description" class="core" title="description">description</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a>&nbsp; or <br>
+
+
+
+    <a href="/TextObject" class="core" title="TextObject">TextObject</a></td>
+            <td class="prop-desc">A description of the item.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/disambiguatingDescription" class="core" title="disambiguatingDescription">disambiguatingDescription</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a></td>
+            <td class="prop-desc">A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/identifier" class="core" title="identifier">identifier</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/PropertyValue" class="core" title="PropertyValue">PropertyValue</a>&nbsp; or <br>
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a>&nbsp; or <br>
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">The identifier property represents any kind of identifier for any kind of <a class="localLink" href="/Thing">Thing</a>, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See <a href="/docs/datamodel.html#identifierBg">background notes</a> for more details.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/image" class="core" title="image">image</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/ImageObject" class="core" title="ImageObject">ImageObject</a>&nbsp; or <br>
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">An image of the item. This can be a <a class="localLink" href="/URL">URL</a> or a fully described <a class="localLink" href="/ImageObject">ImageObject</a>.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/mainEntityOfPage" class="core" title="mainEntityOfPage">mainEntityOfPage</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/CreativeWork" class="core" title="CreativeWork">CreativeWork</a>&nbsp; or <br>
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See <a href="/docs/datamodel.html#mainEntityBackground">background notes</a> for details.
+
+
+                <br>Inverse property:
+
+
+    <a href="/mainEntity" class="core" title="mainEntity">mainEntity</a>
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/name" class="core" title="name">name</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Text" class="core" title="Text">Text</a></td>
+            <td class="prop-desc">The name of the item.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/potentialAction" class="core" title="potentialAction">potentialAction</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/Action" class="core" title="Action">Action</a></td>
+            <td class="prop-desc">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/sameAs" class="core" title="sameAs">sameAs</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
+
+
+
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/subjectOf" class="core" title="subjectOf">subjectOf</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/CreativeWork" class="core" title="CreativeWork">CreativeWork</a>&nbsp; or <br>
+
+
+
+    <a href="/Event" class="core" title="Event">Event</a></td>
+            <td class="prop-desc">A CreativeWork or Event about this Thing.
+
+
+                <br>Inverse property:
+
+
+    <a href="/about" class="core" title="about">about</a>
+            </td>
+        </tr>
+
+
+
+
+        <tr><th class="prop-nam"><code>
+
+
+    <a href="/url" class="core" title="url">url</a></code></th>
+            <td class="prop-ect">
+
+
+
+    <a href="/URL" class="core" title="URL">URL</a></td>
+            <td class="prop-desc">URL of the item.
+
+
+
+            </td>
+        </tr>
+</table>
+
+</body>
+</html>
